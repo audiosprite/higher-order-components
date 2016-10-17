@@ -24551,15 +24551,15 @@
 	
 	var _App2 = _interopRequireDefault(_App);
 	
-	var _AlbumsContainer = __webpack_require__(284);
+	var _AlbumsContainer = __webpack_require__(283);
 	
 	var _AlbumsContainer2 = _interopRequireDefault(_AlbumsContainer);
 	
-	var _AlbumContainer = __webpack_require__(286);
+	var _AlbumContainer = __webpack_require__(285);
 	
 	var _AlbumContainer2 = _interopRequireDefault(_AlbumContainer);
 	
-	var _ArtistsContainer = __webpack_require__(290);
+	var _ArtistsContainer = __webpack_require__(289);
 	
 	var _ArtistsContainer2 = _interopRequireDefault(_ArtistsContainer);
 	
@@ -30232,7 +30232,6 @@
 	  return _react2.default.createElement(
 	    'div',
 	    { id: 'main', className: 'container-fluid' },
-	    _react2.default.createElement(_Form2.default, null),
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'col-xs-2' },
@@ -30258,10 +30257,6 @@
 	var _PlayerContainer = __webpack_require__(281);
 	
 	var _PlayerContainer2 = _interopRequireDefault(_PlayerContainer);
-	
-	var _Form = __webpack_require__(283);
-	
-	var _Form2 = _interopRequireDefault(_Form);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30435,74 +30430,13 @@
 
 	'use strict';
 	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactRedux = __webpack_require__(172);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var NewPlaylistForm = function NewPlaylistForm() {
-	    return _react2.default.createElement(
-	        'div',
-	        { className: 'well' },
-	        _react2.default.createElement(
-	            'form',
-	            { className: 'form-horizontal' },
-	            _react2.default.createElement(
-	                'fieldset',
-	                null,
-	                _react2.default.createElement(
-	                    'legend',
-	                    null,
-	                    'New Playlist'
-	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'form-group' },
-	                    _react2.default.createElement(
-	                        'label',
-	                        { className: 'col-xs-2 control-label' },
-	                        'Name'
-	                    ),
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'col-xs-10' },
-	                        _react2.default.createElement('input', { className: 'form-control', type: 'text' })
-	                    )
-	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'form-group' },
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'col-xs-10 col-xs-offset-2' },
-	                        _react2.default.createElement(
-	                            'button',
-	                            { type: 'submit', className: 'btn btn-success' },
-	                            'Create Playlist'
-	                        )
-	                    )
-	                )
-	            )
-	        )
-	    );
-	};
-
-/***/ },
-/* 284 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 	
 	var _reactRedux = __webpack_require__(172);
 	
-	var _Albums = __webpack_require__(285);
+	var _Albums = __webpack_require__(284);
 	
 	var _Albums2 = _interopRequireDefault(_Albums);
 	
@@ -30519,7 +30453,7 @@
 	exports.default = AlbumsContainer;
 
 /***/ },
-/* 285 */
+/* 284 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30585,7 +30519,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ },
-/* 286 */
+/* 285 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30596,7 +30530,7 @@
 	
 	var _reactRedux = __webpack_require__(172);
 	
-	var _Album = __webpack_require__(287);
+	var _Album = __webpack_require__(286);
 	
 	var _Album2 = _interopRequireDefault(_Album);
 	
@@ -30613,7 +30547,7 @@
 	exports.default = AlbumContainer;
 
 /***/ },
-/* 287 */
+/* 286 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30647,14 +30581,14 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _SongsContainer = __webpack_require__(288);
+	var _SongsContainer = __webpack_require__(287);
 	
 	var _SongsContainer2 = _interopRequireDefault(_SongsContainer);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ },
-/* 288 */
+/* 287 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30665,7 +30599,7 @@
 	
 	var _reactRedux = __webpack_require__(172);
 	
-	var _Songs = __webpack_require__(289);
+	var _Songs = __webpack_require__(288);
 	
 	var _Songs2 = _interopRequireDefault(_Songs);
 	
@@ -30703,7 +30637,7 @@
 	exports.default = SongsContainer;
 
 /***/ },
-/* 289 */
+/* 288 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30798,7 +30732,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ },
-/* 290 */
+/* 289 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30809,7 +30743,7 @@
 	
 	var _reactRedux = __webpack_require__(172);
 	
-	var _Artists = __webpack_require__(291);
+	var _Artists = __webpack_require__(290);
 	
 	var _Artists2 = _interopRequireDefault(_Artists);
 	
@@ -30826,7 +30760,7 @@
 	exports.default = ArtistsContainer;
 
 /***/ },
-/* 291 */
+/* 290 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30846,6 +30780,7 @@
 	      null,
 	      'Artists'
 	    ),
+	    _react2.default.createElement(_ArtistFormContainer2.default, null),
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'list-group' },
@@ -30870,7 +30805,49 @@
 	
 	var _reactRouter = __webpack_require__(217);
 	
+	var _ArtistFormContainer = __webpack_require__(291);
+	
+	var _ArtistFormContainer2 = _interopRequireDefault(_ArtistFormContainer);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ },
+/* 291 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _Form = __webpack_require__(297);
+	
+	var _Form2 = _interopRequireDefault(_Form);
+	
+	var _reactRedux = __webpack_require__(172);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var mapStateToProps = function mapStateToProps(state) {
+	    return {};
+	};
+	
+	var mapDispatchToProps = function mapDispatchToProps(dispatch) {
+	    return {
+	        handleSubmit: function handleSubmit(formInput) {
+	            var artistSearch = {
+	                name: formInput
+	            };
+	            var action = lookForArtist(artistSearch);
+	            dispatch(action);
+	        }
+	    };
+	};
+	
+	var statefulReduxComponentCreator = (0, _reactRedux.connect)(null, mapDispatchToProps);
+	var ArtistFormContainer = statefulReduxComponentCreator(_Form2.default);
+	exports.default = ArtistFormContainer;
 
 /***/ },
 /* 292 */
@@ -30955,7 +30932,7 @@
 	
 	var _reactRouter = __webpack_require__(217);
 	
-	var _SongsContainer = __webpack_require__(288);
+	var _SongsContainer = __webpack_require__(287);
 	
 	var _SongsContainer2 = _interopRequireDefault(_SongsContainer);
 
@@ -31057,11 +31034,129 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _SongsContainer = __webpack_require__(288);
+	var _SongsContainer = __webpack_require__(287);
 	
 	var _SongsContainer2 = _interopRequireDefault(_SongsContainer);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ },
+/* 296 */,
+/* 297 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRedux = __webpack_require__(172);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Form = function (_React$Component) {
+	    _inherits(Form, _React$Component);
+	
+	    function Form() {
+	        _classCallCheck(this, Form);
+	
+	        return _possibleConstructorReturn(this, (Form.__proto__ || Object.getPrototypeOf(Form)).apply(this, arguments));
+	    }
+	
+	    _createClass(Form, [{
+	        key: 'render',
+	        value: function render() {
+	            return _react2.default.createElement(
+	                'form',
+	                { className: 'form-group', onSubmit: this.props.handleSubmit },
+	                _react2.default.createElement(
+	                    'label',
+	                    { htmlFor: 'post' },
+	                    'Search Artists:'
+	                ),
+	                _react2.default.createElement('input', { className: 'form-control', name: 'post', type: 'text', onChange: this.props.handleChange }),
+	                _react2.default.createElement(
+	                    'button',
+	                    { type: 'submit', className: 'btn btn-default' },
+	                    'Post'
+	                )
+	            );
+	        }
+	    }]);
+	
+	    return Form;
+	}(_react2.default.Component);
+	
+	function FormDecorator(InnerComponent) {
+	    return function (_React$Component2) {
+	        _inherits(StatefulForm, _React$Component2);
+	
+	        function StatefulForm(props) {
+	            _classCallCheck(this, StatefulForm);
+	
+	            var _this2 = _possibleConstructorReturn(this, (StatefulForm.__proto__ || Object.getPrototypeOf(StatefulForm)).call(this, props));
+	
+	            _this2.state = { input: '' };
+	            _this2.handleChange = _this2.handleChange.bind(_this2);
+	            _this2.handSubmitWithStatefulReactComponent = _this2.handSubmitWithStatefulReactComponent.bind(_this2);
+	            return _this2;
+	        }
+	
+	        _createClass(StatefulForm, [{
+	            key: 'handleChange',
+	            value: function handleChange(event) {
+	                console.log('event', event.target.value);
+	                this.setState({ input: event.target.value });
+	                console.log('state', this.state.input);
+	            }
+	        }, {
+	            key: 'handSubmitWithStatefulReactComponent',
+	            value: function handSubmitWithStatefulReactComponent(event) {
+	                event.preventDefault();
+	                var formInput = this.state.input;
+	                this.props.handleSubmit(formInput);
+	            }
+	        }, {
+	            key: 'render',
+	            value: function render() {
+	                return _react2.default.createElement(InnerComponent, {
+	                    handleChange: this.handleChange,
+	                    handleSubmit: this.handleSubmit
+	                });
+	            }
+	        }]);
+	
+	        return StatefulForm;
+	    }(_react2.default.Component);
+	}
+	
+	var StatefulForm = FormDecorator(Form);
+	exports.default = StatefulForm;
+	
+	//making a POST with fetch
+	
+	// return fetch('/api/playlists', {
+	//     method: 'POST',
+	//     body: JSON.stringify(someData),
+	//     headers: new Headers({
+	//         'Content-Type': 'application/json'
+	//     })
+	// })
+	// .then(res => res.json())
+	// .then(playlist => console.log(playlist))
 
 /***/ }
 /******/ ]);

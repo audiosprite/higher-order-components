@@ -23,11 +23,14 @@ function FormDecorator (InnerComponent){
             this.handSubmitWithStatefulReactComponent = this.handSubmitWithStatefulReactComponent.bind(this);
         }
         handleChange (event){
-            this.setState({input: event.target.value})
+            console.log('event', event.target.value);
+            this.setState({input: event.target.value});
+            console.log('state', this.state.input);
+            
         }
         handSubmitWithStatefulReactComponent (event){
             event.preventDefault();
-            const formInpupt = this.state.input;
+            const formInput = this.state.input;
             this.props.handleSubmit(formInput);
         }
 
@@ -42,24 +45,13 @@ function FormDecorator (InnerComponent){
     }
 }
 
-const mapDispatchToProps = function(dispatch){
-    return {
-        handleSubmit: function(formInput){
-            const artistSearch = {
-                id: formInput,
-                title: formInput
-            }
-            const action = lookForArtist(artistSearch);
-            dispatch(action);
-        }
-    }
-}
 
-const statefulReduxComponentCreator = connect(null, mapDispatchToProps);
 
-const StatefulForm = FormDecorator(form);
-cont FormContainer = statefulReduxComponentCreator(StatefulForm);
-export default FormContainer;
+
+
+const StatefulForm = FormDecorator(Form);
+export default StatefulForm;
+
 
 //making a POST with fetch
 
