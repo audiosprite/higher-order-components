@@ -3,6 +3,7 @@
 import React from 'react';
 import Sidebar from './sidebar/Sidebar';
 import PlayerContainer from './player/PlayerContainer';
+import Form from './Form';
 
 export default function (props) {
 
@@ -11,6 +12,7 @@ export default function (props) {
 
     return (
       <div id="main" className="container-fluid">
+          <Form />
         <div className="col-xs-2">
           <Sidebar />
         </div>
